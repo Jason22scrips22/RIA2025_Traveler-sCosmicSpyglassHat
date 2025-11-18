@@ -1,0 +1,46 @@
+-- Main Library Source
+
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+ 
+-- Window or baseplate Make tab or section
+
+local Window = Library:NewWindow("RIA 2025")
+ 
+-- Section - Section Usefull you don't want ok?
+
+local Section = Window:NewSection("Main")
+ 
+-- Button Add Script in it
+
+Section:CreateButton("Teleport 1", 
+function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Jason22scrips22/Traveler-sCosmicSpyglassHatTp1/refs/heads/main/Jason22scripts"))()
+print("Clicked")
+end)
+-- Button Add Script in it
+
+Section:CreateButton("Teleport 2",
+function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Jason22scrips22/Traveler-sCosmicSpyglassHatT-P2/refs/heads/main/Jason22scripts"))()
+print("Clicked")
+end)
+
+-- Button Add Script in it
+
+Section:CreateButton("Teleport 3",
+function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Jason22scrips22/Traveler-sCosmicSpyglassHatTp3/refs/heads/main/Jason22scripts"))()
+print("Clicked")
+end)
+-- Button Add Script in it
+
+
+Section:CreateButton("Teleport 4",
+function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Jason22scrips22/Traveler-sCosmicSpyglassHatTp4/refs/heads/main/Jason22scripts"))()
+print("Clicked")
+end)
+
+-- Button Add Scripts in it
+
+Section:CreateButton("copy YT: Jason22scripts", function()
+setclipboard("https://www.youtube.com/@Jason22scripts22")
+toclipboard("https://www.youtube.com/@Jason22scripts22")
+print("Clicked")
+end)
